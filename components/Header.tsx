@@ -17,7 +17,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Plane className="h-8 w-8" />
-          <a href="/home" className="text-2xl font-bold">AI Travel Planner</a>
+          <a href="/home" className="text-2xl font-bold">ええ銚子AI</a>
         </div>
         <nav className="hidden md:flex space-x-6">
           <a href="/planning" className="hover:text-blue-200 transition">{t("Header.plan")}</a>
