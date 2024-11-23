@@ -1,0 +1,77 @@
+{   
+    "//": {
+        "Englishの設定ファイル": "componentで分けて、その中にkeyを入れる。keyは基本英語でいきましょう。"
+    },
+    
+    "contact": {
+        "title": "Contact Us",
+        "description": "If you have any questions or inquiries, please fill out the form below and we will get back to you as soon as possible.",
+        "name": "Name",
+        "namePlaceholder": "Your name here...",
+        "email": "Email",
+        "emailPlaceholder": "Email address here...",
+        "phone": "Phone",
+        "phonePlaceholder": "Phone number here...",
+        "subject": "Subject",
+        "subjectPlaceholder": "Subject here...",
+        "message": "Message",
+        "messagePlaceholder": "Your message here...",
+        "submit": "Submit"
+    },
+    "home": {
+        "title": "Exrplore your next journey",
+        "description": "Discover personalized travel experiences tailored just for you.",
+        "button1": "Get Started",
+        "button1Description": "Let AI help you create the perfect travel itinerary tailored just for you.",
+        "button2": "Tour",
+        "button2Description": "Discover handpicked tours to make the most of your travel experience.",
+        "trendtitle": "Trending Destinations",
+        "trenddescription": "Check out the latest trends in Japan."
+    },
+    "planning": {
+        "title": "Plan your trip",
+        "subtitle": "AI will suggest the best itinerary and hotels tailored to your interests and budget."
+       
+    },
+    "start": {
+        "title": "Plan your next trip!",
+        "subtitle": "Discover the best destinations and experiences tailored just for you.",
+        "button": "Get Started"
+    },
+    "tour": {
+        "title": "Exciting Travel Activities and Experiences"
+
+    },
+    "ChatInterface": {
+        "placeholder": "Type your message here"
+    },
+    "ErrorMessage": {
+        "retry": "Retry"
+    },
+    "Header": {
+        "plan": "Plan Your Trip",
+        "tour": "Tour",
+        "contact": "Contact Us"
+    },  
+    "LoadingState": {
+        "loading": "Loading..."
+    },
+    "Markdown": {
+
+    },
+    "Results": {
+        "hotels": "Recomended Hotels"
+    },
+    "TravelForm": {
+        "destination": "Destination",
+        "placeholder":"Enter city name (e.g. Tokyo, Kyoto)",
+        "stayday":"Length of stay (days)",
+        "budget": "Budget",
+        "reasonable": "Reasonable",
+        "medium": "Medium",
+        "luxury": "Luxury",
+        "experience": "interesting Experience",
+        "loading": "Loading...",
+        "submit": "Submit"
+    }
+}

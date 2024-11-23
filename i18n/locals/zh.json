@@ -1,0 +1,77 @@
+{   
+    "//": {
+        "Chineiseの設定ファイル": "componentで分けて、その中にkeyを入れる。keyは基本英語でいきましょう。"
+    },
+    
+    "contact": {
+        "title": "聯繫我們",
+        "description": "如果您有任何問題或查詢，請填寫下面的表格，我們將盡快與您聯繫。",
+        "name": "姓名",
+        "namePlaceholder": "您的姓名...",
+        "email": "電子郵件",
+        "emailPlaceholder": "電子郵件地址...",
+        "phone": "電話號碼",   
+        "phonePlaceholder": "電話號碼...",
+        "subject": "主題",
+        "subjectPlaceholder": "主題...",
+        "message": "內容",
+        "messagePlaceholder": "您的訊息...",
+        "submit": "提交"
+    },
+    "home": {
+        "title": "探索您的下一次旅程",
+        "description": "發現為您量身定制的旅行體驗。",
+        "button1": "開始",
+        "button1Description": "讓AI幫助您為您量身定制完美的旅行行程。",
+        "button2": "旅遊",
+        "button2Description": "發現精心挑選的旅遊，讓您充分體驗旅行。",
+        "trendtitle": "趨勢",
+        "trenddescription": "查看日本最新趨勢。"
+    },
+    "planning": {
+        "title": "計劃您的旅行",
+        "subtitle": "AI將根據您的興趣和預算為您提供最佳的行程和酒店。"
+    },
+    "start": {
+        "title": "計劃您的下一次旅行！",
+        "subtitle": "發現最適合您的目的地和體驗。",
+        "button": "開始"
+    },
+    "tour": {
+        "title": "令人興奮的旅遊活動和體驗"
+
+    },
+    "ChatInterface": {
+        "placeholder": "在此輸入您的訊息"
+    },
+    "ErrorMessage": {
+        "retry": "重試"
+    },
+    "Header": {
+        "plan": "計劃您的旅行",
+        "tour": "旅遊",
+        "contact": "聯繫我們"
+    },  
+    "LoadingState": {
+        "loading": "載入中..."
+    },
+    "Markdown": {
+
+    },
+    "Results": {    
+        "hotels": "推薦酒店"
+    },
+    "TravelForm": {
+        "destination": "目的地",
+        "placeholder":"輸入城市名稱 (例如：東京、京都)",
+        "stayday": "停留時間(天)",
+        "budget": "預算",
+        "reasonable": "合理",
+        "medium": "中等",
+        "luxury": "豪華",
+        "experience": "有趣的體驗",
+        "loading": "載入中...",
+        "submit": "提交"
+    }
+
+}
