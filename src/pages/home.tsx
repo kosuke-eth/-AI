@@ -115,10 +115,10 @@ function Home() {
                 marginBottom: '50px'
             }}>
                 {[
-                    { city: 'Tokyo', imageUrl: 'https://travel.rakuten.co.jp/mytrip/sites/mytrip/files/styles/main_image/public/migration_article_images/ranking/spot-tokyo-key.jpg?itok=VGK6-LNo' },
-                    { city: 'Osaka', imageUrl: 'https://cdn.cheapoguides.com/wp-content/uploads/sites/3/2020/06/osaka-dotonbori-iStock-1138049211-1024x683.jpg' },
-                    { city: 'Fukuoka', imageUrl: 'https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2023/12/CXI1223-A-guide-to-Fukuoka-for-every-type-of-traveller-food-fukuoka-japan-explore-Gettyimages-HERO.renditionimage.900.600.jpg' },
-                    { city: 'Kyoto', imageUrl: 'https://boutiquejapan.com/wp-content/uploads/2019/07/yasaka-pagoda-higashiyama-kyoto-japan.jpg' }
+                    { city: '犬吠埼', imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCuBG9DGrUBv2ikxfdMHJkSihLDlTgLfkXyw&s' },
+                    { city: '銚子駅', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Choshi-STA.jpg/1200px-Choshi-STA.jpg' },
+                    { city: '銚子電鉄', imageUrl: 'https://www.choshi-dentetsu.jp/wp-content/uploads/2024/03/22000-1.jpg' },
+                    { city: 'ぬれせん', imageUrl: 'https://www.choshi-dentetsu.jp/upload/images/nure-senbei.jpg' }
                 ].map((destination, index) => (
                     <div key={index} style={{
                         position: 'relative',

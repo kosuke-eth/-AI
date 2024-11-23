@@ -4,68 +4,60 @@ function Tour() {
   const { t } = useTranslation();
   const tours = [
     {
-      id: 1,
-      title: "Tokyo Bungee Jumping Adventure",
-      description: "Experience the thrill of bungee jumping over stunning landscapes near Tokyo.",
-      duration: "2 hours",
-      price: "$150",
-      image: "https://img.activityjapan.com/10/7361/10000000736101_RBLgaXJ1.jpg"
+      "id": 1,
+      "title": "犬吠埼灯台",
+      "description": "太平洋に突き出した犬吠埼は日本の海上交通の最重要の海のみちしるべのひとつ。維新後近代化を進めた明治政府は、海外から技師を招きこの場所に洋式灯台を建設。1874年(明治7)から現在まで海の安全を守るために稼働中だ。",
+      "address": "千葉県銚子市犬吠埼9576",
+      "category": "観光",
+      "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_1804019_01.jpg"
     },
     {
-      id: 2,
-      title: "Mount Fuji Hiking Tour",
-      description: "Embark on a guided hike up Japan's iconic Mount Fuji and witness breathtaking views.",
-      duration: "8 hours",
-      price: "$120",
-      image: "https://trickytour.jp/themes/tt2021/images/fuji/column-point-walking01.jpg"
+      "id": 2,
+      "title": "銚子ポートタワー",
+      "description": "360度見渡せる展望室から眼下に行き交う漁船の風景と太平洋、銚子の町を一望できる「銚子ポートタワー」と隣接する水産物即売センター「ウオッセ21」は銚子漁港の観光拠点。",
+      "address": "千葉県銚子市川口町2-6529-34",
+      "category": "漁港",
+      "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_12800037_01.jpg"
     },
     {
-      id: 3,
-      title: "Kyoto Cycling & Temple Tour",
-      description: "Explore Kyoto's historic temples and beautiful streets on a guided cycling tour.",
-      duration: "4 hours",
-      price: "$75",
-      image: "https://www.todaiji.or.jp/wp-content/uploads/2022/02/daibutsuden00.jpg"
+      "id": 3,
+      "title": "満願寺",
+      "description": "坂東札所めぐりをはじめ、西国、秩父、四国を合わせた百八十八霊場巡拝を満願成就した人々が、報恩感謝のために開創した寺院。その年の一番大きな願いを叶えると言われる本尊の「十一面観世音」に加え、百八十八霊場すべての本尊を勧請している。",
+      "address": "千葉県銚子市天王台9822-1",
+      "category": "神社・寺院",
+      "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_12800141_01.jpg"
     },
     {
-      id: 4,
-      title: "Traditional Tea Ceremony in Kyoto",
-      description: "Immerse yourself in Japanese culture with a traditional tea ceremony led by a tea master.",
-      duration: "1.5 hours",
-      price: "$50",
-      image: "https://halmek.co.jp/media/article/image/84cc787cdd81e9e5a24057832474d6cd.jpg"
+      "id": 4,
+      "title": "銚子電鉄 ぬれ煎餅駅",
+      "description": "ローカル鉄道「銚子電鉄」直営のぬれ煎餅直売店。その売上によって鉄道を存続の危機から救った名物のぬれ煎餅をはじめ、手焼き体験も可能。",
+      "address": "千葉県銚子市小浜町1753-1",
+      "category": "お土産",
+      "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_12800214_01.jpg"
     },
     {
-      id: 5,
-      title: "Nara Deer Park & Temple Tour",
-      description: "Visit the historic temples of Nara and interact with the friendly deer in Nara Park.",
-      duration: "5 hours",
-      price: "$75",
-      image: "https://www.noborioji.com/cms/wp-content/uploads/2023/08/sika1-2.jpg"
+      "id": 5,
+      "title": "観音食堂 丼屋 七兵衛",
+      "description": "銚子港に水揚げされる新鮮な魚を使った漬け丼の専門店。刺身、煮魚など豊富なメニューが特徴。",
+      "address": "千葉県銚子市飯沼町1-26",
+      "category": "飲食",
+      "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_3000262_01.jpg"
     },
     {
-      id: 6,
-      title: "Hakone Scenic Onsen and Art Tour",
-      description: "Relax in Hakone’s famous hot springs and explore local art museums with a guided tour.",
-      duration: "6 hours",
-      price: "$100",
-      image: "https://www.club-t.com/ct/kanko/guide/images/k_020/k_020_000.jpg"
+      "id": 6,
+      "title": "君ヶ浜しおさい公園",
+      "description": "犬吠埼から続く美しい白砂青松の浜辺と太平洋の景観を楽しめる公園。",
+      "address": "千葉県銚子市君ケ浜8853-3",
+      "category": "公園",
+      "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_12800269_01.jpg"
     },
     {
-      id: 7,
-      title: "Scenic Drive Along the Izu Peninsula",
-      description: "Enjoy a scenic coastal drive along the Izu Peninsula, with stops at stunning viewpoints.",
-      duration: "5 hours",
-      price: "$90",
-      image: "https://www.abarth.jp/scorpion/wp-content/uploads/2019/06/190628_Abarth_drive_02m.jpg"
-    },
-    {
-      id: 8,
-      title: "Tokyo Photography Night Tour",
-      description: "Capture the vibrant city lights of Tokyo with a photography tour led by a local guide.",
-      duration: "3 hours",
-      price: "$60",
-      image: "https://www.shutoko.jp/-/media/Images/responsive/customer/fun/lightup/rainbowbridge/slide/rb_1.jpg"
+      "id": 7,
+      "title": "海鹿島海水浴場",
+      "description": "太平洋に面した落ち着いた雰囲気の海水浴場で、釣りや散策も楽しめる。",
+      "address": "千葉県銚子市海鹿島5255",
+      "category": "海水浴場",
+      "image": "https://svcstrg2.navitime.jp/imgfile/02301_3000042_01.jpg"
     }
   ];
 
@@ -104,8 +96,8 @@ function Tour() {
             <div style={{ padding: '20px', textAlign: 'left' }}>
               <h2 style={{ fontSize: '1.5em', color: '#34495e', margin: '0 0 10px' }}>{tour.title}</h2>
               <p style={{ color: '#7f8c8d', marginBottom: '10px', lineHeight: '1.5' }}>{tour.description}</p>
-              <p style={{ color: '#bdc3c7', fontSize: '0.9em' }}>{tour.duration}</p>
-              <p style={{ fontWeight: 'bold', fontSize: '1.2em', margin: '10px 0', color: '#e74c3c' }}>{tour.price}</p>
+              <p style={{ color: '#bdc3c7', fontSize: '0.9em' }}>{tour.address}</p>
+              <p style={{ fontWeight: 'bold', fontSize: '1em', margin: '10px 0', color: '#95a5a6' }}>{tour.category}</p>
 
               <button 
                 style={{
@@ -120,11 +112,11 @@ function Tour() {
                   marginTop: '10px',
                   transition: 'background-color 0.3s'
                 }}
-                onClick={() => alert(`You have booked ${tour.title}!`)}
+                onClick={() => alert(`${tour.title} を選択しました！`)}
                 onMouseEnter={(e) => e.currentTarget.style.backgroundColor = '#3498db'}
                 onMouseLeave={(e) => e.currentTarget.style.backgroundColor = '#2980b9'}
               >
-                Book Now
+                詳細を見る
               </button>
             </div>
           </div>

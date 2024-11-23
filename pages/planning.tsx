@@ -24,9 +24,9 @@ function Planning() {
     const budget_trans_zh = {"reasonable": "合理", "medium": "中等", "luxury": "豪華"};
     if (i18n.language === 'ja') {
       if (formData.interests==null || formData.interests.length === 0){ 
-        var content = `${formData.destination}への${formData.duration}日間の旅行を計画しています。予算は${budget_trans_ja[formData.budget]}です。日本語でお願いします。`;
+        var content = `${formData.destination}人での${formData.duration}日間の旅行を計画しています。予算は${budget_trans_ja[formData.budget]}です。日本語でお願いします。`;
       }  else { 
-        content = `${formData.destination}への${formData.duration}日間の旅行を計画しています。予算は${budget_trans_ja[formData.budget]}で、${formData.interests.join('、')}に興味があります。日本語でお願いします。`;
+        content = `${formData.destination}人での${formData.duration}日間の旅行を計画しています。予算は${budget_trans_ja[formData.budget]}で、${formData.interests.join('、')}に興味があります。日本語でお願いします。`;
       }}
     else if (i18n.language === 'zh') {
       if (formData.interests==null || formData.interests.length === 0){ 
@@ -60,7 +60,7 @@ function Planning() {
         response_mode: 'blocking',
       }, {
         headers: {
-          'Authorization': `Bearer app-jzN6siiGQU0XUWNWBXpQsDfG`,
+          'Authorization': `Bearer app-8wxn7EdG07h2yMQkP1JnbwyU`,
           'Content-Type': 'application/json',
         },
       });
@@ -136,7 +136,7 @@ function Planning() {
         response_mode: 'blocking',
       }, {
         headers: {
-          'Authorization':`Bearer app-jzN6siiGQU0XUWNWBXpQsDfG`,
+          'Authorization':`Bearer app-8wxn7EdG07h2yMQkP1JnbwyU`,
           'Content-Type': 'application/json',
         },
       });

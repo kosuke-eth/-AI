@@ -1,8 +1,7 @@
-{   
+{
     "//": {
         "japaneseの設定ファイル": "componentで分けて、その中にkeyを入れる。keyは基本英語でいきましょう。"
     },
-    
     "contact": {
         "title": "お問い合わせ",
         "description": "ご質問やお問い合わせがある場合は、以下のフォームに記入してください。できるだけ早くご連絡いたします。",
@@ -19,39 +18,41 @@
         "submit": "送信"
     },
     "home": {
-        "title": "次の旅行を計画しよう",
-        "description": "あなたにぴったりの旅行体験を見つけましょう。",
+        "title": "銚子旅行を計画しよう",
+        "description": "あなたにぴったりの銚子観光体験を見つけましょう。",
         "button1": "はじめる",
-        "button1Description": "AIがあなたにぴったりの旅程を作成するのを手伝ってくれます。",
+        "button1Description": "AIがあなたにぴったりの銚子観光プランを作成するのを手伝ってくれます。",
         "button2": "ツアー",
-        "button2Description": "選りすぐりのツアーを見つけて、旅行を最大限に楽しみましょう。",
-        "trendtitle": "トレンドの都市",
-        "trenddescription": "日本の最新トレンドをチェックしましょう。"
+        "button2Description": "銚子の選りすぐりのツアーを見つけて、旅行を最大限に楽しみましょう。",
+        "trendtitle": "銚子のトレンド",
+        "trenddescription": "銚子の最新観光スポットや話題をチェックしましょう。"
     },
     "planning": {
-        "title": "あなただけの日本旅行プラン",
-        "subtitle": "AIがあなたの興味や予算に合わせて、最適な旅程とホテルをご提案します。"
-
+        "title": "あなただけの銚子旅行プラン",
+        "subtitle": "AIがあなたの興味や予算に合わせて、銚子での最適な旅程と宿泊施設をご提案します。"
     },
     "start": {
-        "title": "あなたの次の旅行を計画しましょう！",
-        "subtitle": "あなたにぴったりの最高の目的地と体験を見つけましょう。",
+        "title": "あなたの銚子旅行を計画しましょう！",
+        "subtitle": "あなたにぴったりの銚子での最高の体験と観光スポットを見つけましょう。",
         "button": "ここをクリック!!"
     },
     "tour": {
-        "title": "エキサイティングな旅行アクティビティと体験を見つけよう!!",
+        "title": "銚子のエキサイティングな観光アクティビティと体験を見つけよう!!",
         "tab1": {
             "title": "観光",
-            "description": "日本の観光地を巡るツアーをご紹介します。",
+            "description": "銚子の名所や観光スポットを巡るツアーをご紹介します。",
             "duration": "所要時間"
         },
         "tab2": {
-            
+            "title": "グルメ",
+            "description": "銚子で楽しめる地元の絶品グルメをご紹介します。",
+            "duration": "おすすめの食事時間"
         },
         "tab3": {
-            
+            "title": "アクティビティ",
+            "description": "銚子で体験できるユニークなアクティビティやイベントをご提案します。",
+            "duration": "開催時間"
         }
-
     },
     "ChatInterface": {
         "placeholder": "メッセージを入力してください"
@@ -60,22 +61,20 @@
         "retry": "もう一度試す"
     },
     "Header": {
-        "plan": "Plan Your Trip",
+        "plan": "Plan Your Choshi Trip",
         "tour": "Tour",
         "contact": "お問い合わせ"
-    },  
+    },
     "LoadingState": {
         "loading": "ローディング中..."
     },
-    "Markdown": {
-
-    },
+    "Markdown": {},
     "Results": {
         "hotels": "おすすめホテル"
     },
     "TravelForm": {
-        "destination": "目的地",
-        "placeholder":"都市名を入力（例：東京、京都）",
+        "destination": "人数",
+        "placeholder": "人数を入力してください（例：1、2）",
         "stayday": "滞在期間(日)",
         "budget": "予算",
         "reasonable": "リーズナブル",
@@ -85,5 +84,4 @@
         "loading": "ローディング中...",
         "submit": "送信"
     }
-
 }

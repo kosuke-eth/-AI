@@ -3,70 +3,56 @@ import { useTranslation } from 'react-i18next';
 function Tour() {
   const { t } = useTranslation();
   const tours = [
-    {
-      id: 1,
-      title: "Tokyo Bungee Jumping Adventure",
-      description: "Experience the thrill of bungee jumping over stunning landscapes near Tokyo.",
-      duration: "2 hours",
-      price: "$150",
-      image: "https://img.activityjapan.com/10/7361/10000000736101_RBLgaXJ1.jpg"
-    },
-    {
-      id: 2,
-      title: "Mount Fuji Hiking Tour",
-      description: "Embark on a guided hike up Japan's iconic Mount Fuji and witness breathtaking views.",
-      duration: "8 hours",
-      price: "$120",
-      image: "https://trickytour.jp/themes/tt2021/images/fuji/column-point-walking01.jpg"
-    },
-    {
-      id: 3,
-      title: "Kyoto Cycling & Temple Tour",
-      description: "Explore Kyoto's historic temples and beautiful streets on a guided cycling tour.",
-      duration: "4 hours",
-      price: "$75",
-      image: "https://www.todaiji.or.jp/wp-content/uploads/2022/02/daibutsuden00.jpg"
-    },
-    {
-      id: 4,
-      title: "Traditional Tea Ceremony in Kyoto",
-      description: "Immerse yourself in Japanese culture with a traditional tea ceremony led by a tea master.",
-      duration: "1.5 hours",
-      price: "$50",
-      image: "https://halmek.co.jp/media/article/image/84cc787cdd81e9e5a24057832474d6cd.jpg"
-    },
-    {
-      id: 5,
-      title: "Nara Deer Park & Temple Tour",
-      description: "Visit the historic temples of Nara and interact with the friendly deer in Nara Park.",
-      duration: "5 hours",
-      price: "$75",
-      image: "https://www.noborioji.com/cms/wp-content/uploads/2023/08/sika1-2.jpg"
-    },
-    {
-      id: 6,
-      title: "Hakone Scenic Onsen and Art Tour",
-      description: "Relax in Hakone’s famous hot springs and explore local art museums with a guided tour.",
-      duration: "6 hours",
-      price: "$100",
-      image: "https://www.club-t.com/ct/kanko/guide/images/k_020/k_020_000.jpg"
-    },
-    {
-      id: 7,
-      title: "Scenic Drive Along the Izu Peninsula",
-      description: "Enjoy a scenic coastal drive along the Izu Peninsula, with stops at stunning viewpoints.",
-      duration: "5 hours",
-      price: "$90",
-      image: "https://www.abarth.jp/scorpion/wp-content/uploads/2019/06/190628_Abarth_drive_02m.jpg"
-    },
-    {
-      id: 8,
-      title: "Tokyo Photography Night Tour",
-      description: "Capture the vibrant city lights of Tokyo with a photography tour led by a local guide.",
-      duration: "3 hours",
-      price: "$60",
-      image: "https://www.shutoko.jp/-/media/Images/responsive/customer/fun/lightup/rainbowbridge/slide/rb_1.jpg"
-    }
+    [
+      {
+        "id": 1,
+        "title": "犬吠埼灯台",
+        "description": "太平洋に突き出した犬吠埼は日本の海上交通の最重要の海のみちしるべのひとつ。維新後近代化を進めた明治政府は、海外から技師を招きこの場所に洋式灯台を建設。1874年(明治7)から現在まで海の安全を守るために稼働中だ。",
+        "address": "千葉県銚子市犬吠埼9576",
+        "category": "観光",
+        "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_1804019_01.jpg"
+      },
+      {
+        "id": 2,
+        "title": "銚子ポートタワー",
+        "description": "360度見渡せる展望室から眼下に行き交う漁船の風景と太平洋、銚子の町を一望できる「銚子ポートタワー」と隣接する水産物即売センター「ウオッセ21」は銚子漁港の観光拠点。",
+        "address": "千葉県銚子市川口町2-6529-34",
+        "category": "漁港",
+        "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_12800037_01.jpg"
+      },
+      {
+        "id": 3,
+        "title": "満願寺",
+        "description": "坂東札所めぐりをはじめ、西国、秩父、四国を合わせた百八十八霊場巡拝を満願成就した人々が、報恩感謝のために開創した寺院。その年の一番大きな願いを叶えると言われる本尊の「十一面観世音」に加え、百八十八霊場すべての本尊を勧請している。",
+        "address": "千葉県銚子市天王台9822-1",
+        "category": "神社・寺院",
+        "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_12800141_01.jpg"
+      },
+      {
+        "id": 4,
+        "title": "地球の丸く見える丘展望館",
+        "description": "全国トップクラスの水揚げを誇る銚子漁港があるため、港町のイメージがある銚子だが、内陸部には広大な畑が広がっていて、実は農産物でも全国有数の土地。そんな場所の真ん中にあるのがこの展望台だ。",
+        "address": "千葉県銚子市天王台1421-1",
+        "category": "展望台",
+        "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_3000334_01.jpg"
+      },
+      {
+        "id": 5,
+        "title": "銚子マリーナ",
+        "description": "銚子市潮見町にあるマリーナ。安全講習を受講することで、マリーナとしての利用が可能となる(要海技免許)。敷地内にはバーベキュー場を備えており、「東洋のドーバー」とも呼ばれる屏風ヶ浦の景観とともにバーベキューを楽しめる(要予約)。",
+        "address": "千葉県銚子市潮見町15",
+        "category": "立ち寄りスポット",
+        "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_12800294_01.jpg"
+      },
+      {
+        "id": 6,
+        "title": "川口神社",
+        "description": "寛和2年(986)創建の古社で、祭神は速秋津姫命。古くから漁業関係者や漁船の守り神として信仰を集めている。",
+        "address": "千葉県銚子市川口町2-6378",
+        "category": "神社・寺院",
+        "image": "https://svcstrg.cld.navitime.jp/imgfile/02301_t9380_01.jpg"
+      }
+    ]    
   ];
 
   return (

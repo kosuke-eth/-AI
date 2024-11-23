@@ -8,7 +8,7 @@ function Start() {
         navigate('/home');
     }
     return (
-        <div className="bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-white" style={{ backgroundImage: "url('https://cdn.pixabay.com/photo/2019/12/03/05/58/fuji-4669297_1280.jpg')" }}>
+        <div className="bg-cover bg-center min-h-screen flex flex-col items-center justify-center text-white" style={{ backgroundImage: "url('https://cloudfront-ap-northeast-1.images.arcpublishing.com/sankei/HUUZ4G6A2BKCVOUVWD36NSVP2U.jpg')" }}>
             <div className="bg-black bg-opacity-50 rounded-lg shadow-lg p-8 max-w-lg text-center">
                 <h1 className="text-4xl font-bold mb-4">
                     {t('start.title')}
